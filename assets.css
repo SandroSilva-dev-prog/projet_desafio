@@ -1,0 +1,112 @@
+:root{
+    --cor-um: #e5e5e5;
+    --cor-dois:#000000;
+    --cor-tres:#22d4fd;
+    --cor-quatro:#f6f6f6;
+    --cor-cinco:#272727;
+    --cor-seis:#0a3871;
+    --cor-sete:#495057;
+
+
+
+}
+*{
+    background: var(--cor-um);
+    font-family:"Inter", sans-serif; 
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+  
+
+.LogoAlura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+@media  (max-width:1000px){
+    main{
+        flex-direction: column;
+
+    }
+    .mensagem{
+        
+    } 
+} 
+textarea{
+    border: none;
+    color: var(--cor-seis);
+    margin-top: 80px;
+    text-transform: lowercase;
+
+}
+::placeholder{color: var(--cor-seis);}
+    text-area:focus{
+        outline: none;
+    }
+    .mensagem{
+        background: var(--cor-quatro);
+        background-image: url(boneco-2.png);
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 24px;   
+        color: var(--cor-dois);
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 50px;
+        /* position: fixed; */
+    }
+    .mensagem:focus{
+        outline: none;
+    }
+    .botoes{
+        display: flex;
+        margin-top: 18px;
+    }
+    .btn-encriptar{
+        background-color: var(--cor-seis);
+        border: 1px, solid,var(--cor-seis);
+        border-radius: 24px;
+        color: var(--cor-quatro);
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+
+    }
+    .btn-desencriptar{
+        background-color: var(--cor-quatro);
+        border: 1px solid var(--cor-seis);
+        border-radius: 24px;
+        color: var(--cor-seis);
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+
+    }
+    .btn-copiar{
+        border: 1px solid var(--cor-seis);
+        border-radius: 24px;
+        color: var(--cor-seis);
+        cursor: pointer;
+        height: 67px;
+        width: 336px;
+        margin-left: 108px;
+        margin-top: 50px;
+        /* position: absolute; */
+    }
+ 
+    .informação{
+        color: var(--cor-sete);
+        font-size: 18px;
+
+    }
+    .rodape{
+        margin-left: 50%;
+        font-size: 8px;
+    }
