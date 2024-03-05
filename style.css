@@ -35,9 +35,6 @@ main{
         flex-direction: column;
 
     }
-    .mensagem{
-        
-    } 
 } 
 textarea{
     border: none;
