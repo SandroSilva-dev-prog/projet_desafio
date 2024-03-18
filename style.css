@@ -51,7 +51,7 @@ textarea {
     color: var(--cor-seis);
 }
 
-text-area focus {
+.text-area:focus {
     outline: none;
 }
 
