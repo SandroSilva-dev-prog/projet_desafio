@@ -32,12 +32,6 @@ main {
     margin-left: 80px;
 }
 
-@media screen and (max-width: 1000px) {
-    main {
-        flex-direction: column;
-
-    }
-}
 
 textarea {
     border: none;
@@ -120,4 +114,11 @@ textarea {
 .rodape {
     margin-left: 50%;
     font-size: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+
+    }
 }
